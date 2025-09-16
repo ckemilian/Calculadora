@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    
+}
+.contenedorcalculadora{
+    background-image: url('../images/fondocalculadora.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.Calculadora{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 350px;
+    height: 580px;
+    border-radius: 5px;
+    background-color: #884444;
+    flex-direction: column;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+.display{
+    border-radius: 5px;
+    width: 330px;
+    height: 100px;
+    background-color: #ffffffc2;
+    text-align: right;
+    font-size: 40px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.buttons{
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 340px;
+    height: 450px;
+}
+.button{
+    border-radius: 5px;
+    margin: 5px;
+    width: 75px;
+    height: 100px;
+    font-size: 25px;
+    border: 1px solid #000;
+    background-color: #df2e2e93;
+    cursor: pointer;
+}
